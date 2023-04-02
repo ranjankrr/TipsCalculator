@@ -1,9 +1,6 @@
 let btn = document.getElementById("btn");
 let btn2 =document.getElementById("btn2");
 btn.addEventListener("click", ()=>{
-    if(!p ===''||!r ===''||!t === ''){
-        alert("please enter all value");
-    }
     let p =document.getElementById("amount").value;
     let r = document.getElementById("rate").value;
     let t = document.getElementById("time").value;
